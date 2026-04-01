@@ -6,10 +6,10 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: bank
-      MYSQL_USER: bank_user
-      MYSQL_PASSWORD: bank_password
+      MYSQL_USER: root
+      MYSQL_PASSWORD: root
     ports:
-      - "3306:3306"
+      - "3307:3306"
     volumes:
       - mysql-data:/var/lib/mysql
 
@@ -58,7 +58,7 @@ services:
     image: grafana/grafana:latest
     container_name: bank-grafana
     ports:
-      - "3000:3000"
+      - "3001:3000"
     environment:
       - GF_SECURITY_ADMIN_PASSWORD=admin
     depends_on:

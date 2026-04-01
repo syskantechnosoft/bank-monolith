@@ -25,7 +25,6 @@ com\bank\monolith\domain\entity\SavingsAccount.class
 com\bank\monolith\domain\entity\Transaction$TransactionBuilder.class
 com\bank\monolith\config\SecurityAppConfig.class
 com\bank\monolith\common\exception\GlobalExceptionHandler.class
-com\bank\monolith\config\SwaggerConfig.class
 com\bank\monolith\common\dto\AccountResponse.class
 com\bank\monolith\config\SecurityConfig.class
 com\bank\monolith\service\LoanService.class

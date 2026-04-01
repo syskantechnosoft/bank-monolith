@@ -135,6 +135,13 @@ npm run dev
 ```
 The frontend will launch on `http://localhost:3000` (or the port specified by Vite in your terminal).
 
+### 4. Accessing Swagger UI API Documentation
+Once the Spring Boot backend is running, you can interact directly with the REST endpoints via the browser-based Swagger interface:
+1. Open your web browser.
+2. Navigate to: [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+3. You will see all grouped endpoints (`/api/v1/customer`, `/api/v1/admin`, etc.).
+4. **Authentication**: Register or Login via the `Auth API` endpoints to receive a JWT `token`. Click the **Authorize** lock icon at the top right of the Swagger page, and paste your JWT token to authorize restricted calls.
+
 ---
 
 ## 🔧 Troubleshooting Tips

@@ -13,7 +13,6 @@ D:\Training\bank-monolith\src\main\java\com\bank\monolith\config\OpenApiConfig.j
 D:\Training\bank-monolith\src\main\java\com\bank\monolith\config\RateLimitInterceptor.java
 D:\Training\bank-monolith\src\main\java\com\bank\monolith\config\SecurityAppConfig.java
 D:\Training\bank-monolith\src\main\java\com\bank\monolith\config\SecurityConfig.java
-D:\Training\bank-monolith\src\main\java\com\bank\monolith\config\SwaggerConfig.java
 D:\Training\bank-monolith\src\main\java\com\bank\monolith\config\WebMvcConfig.java
 D:\Training\bank-monolith\src\main\java\com\bank\monolith\controller\AdminController.java
 D:\Training\bank-monolith\src\main\java\com\bank\monolith\controller\AuthController.java
