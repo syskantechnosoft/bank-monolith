@@ -1,0 +1,7 @@
+com\bank\monolith\service\LoanServiceTest.class
+com\bank\monolith\domain\repository\TransactionRepositoryTest.class
+com\bank\monolith\service\TransactionServiceTest.class
+com\bank\monolith\service\AccountServiceTest.class
+com\bank\monolith\service\AuthServiceTest.class
+com\bank\monolith\domain\repository\UserRepositoryTest.class
+com\bank\monolith\domain\repository\AccountRepositoryTest.class
